@@ -1,0 +1,15 @@
+### macOS ###
+.DS_Store
+### IDEs ###
+# Eclipse
+.settings
+/build/archive-tmp/
+.classpath
+.project
+
+# node module
+node_modules
+*.log
+app/lib
+app/web/modern
+app/web/config

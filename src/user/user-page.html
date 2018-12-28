@@ -1,0 +1,32 @@
+<div class="tile">
+    <p>{{'Hello' | translate}}</p>
+    <h3 data-translate="USER" data-ng-bind="$ctrl.ss" class="tile-title"></h3>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>
+            <input type="checkbox" data-ng-show="$ctrl.myv" data-ng-model="selectAll" data-ng-click="all(selectAll)">
+          </th>
+          <th>User Name</th>
+          <th>Location</th>
+          <th>Age</th>
+          <th data-ng-show="$ctrl.myv">State</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-ng-repeat="user in $ctrl.users">
+          <td><input type="checkbox" data-ng-show="$ctrl.myv" data-ng-model="person.state" data-ng-checked="selectAll"></td>
+          <td data-ng-bind="user.name"><input type="checkbox"></td>
+          <td data-ng-bind="user.location"></td>
+          <td data-ng-bind="user.age"></td>
+          <td class="box" data-ng-bind="user.state" data-ng-show="$ctrl.myv"></td>
+          </tr>
+      </tbody>
+    </table>
+    <div class="tile-footer">
+      <input type="text" name="username" data-ng-model="$ctrl.nameFilter" />
+      <button class="btn btn-primary" data-ng-click="$ctrl.filterUserName()">{{'Filter' | translate}}</button>
+      <button class="btn btn-primary" data-ng-show="$ctrl.hide" data-ng-click="$ctrl.hideShow()" >{{'Show' | translate}}</button>
+    </div>
+  
+  </div>

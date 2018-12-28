@@ -1,0 +1,23 @@
+
+[
+    {
+        "username": "admin",
+        "password": "123",
+        "age": "23"
+    },
+    {
+        "username": "superman",
+        "password": "123",
+        "age": "24"
+    },
+    { 
+        "username": "wukong",
+        "password": "123",
+        "age": "25"
+    },
+    {
+        "username": "batman",
+        "password": "123",
+        "age": "26"
+    }
+]

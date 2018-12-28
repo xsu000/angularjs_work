@@ -1,0 +1,33 @@
+
+[
+    {
+        "name": "SuperMan",
+        "location": "Atfjow Gwofe",
+        "age":38,
+        "state" : "ok"
+    },
+    {
+        "name": "WuKong",
+        "location": "China",
+        "age":500,
+        "state" : "ok"
+    },
+    {
+        "name": "Batman",
+        "location": "Wayne Manor",
+        "age":36,
+        "state" : "ok"
+    },
+    {
+        "name": "Captain American",
+        "location": "American",
+        "age": 70,
+        "state" : "ok"
+    },
+    {
+        "name": "Iron Man",
+        "location": "American",
+        "age": 40,
+        "state" : "ok"
+    }
+]
